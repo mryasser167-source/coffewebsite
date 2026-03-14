@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: #f1f1f1;
+  --color2: #333;
+  --color3: #c7a17a;
+  --color4: #fbfbfb;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.head {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px var(--color2) solid;
+  position: fixed;
+
+  width: 100%;
+  background-color: white;
+}
+
+.head a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #a3dbf9;
+  margin-right: 10px;
+  font-size: 20px;
+  transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+}
+
+.head img {
+  width: 80px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+.head ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head ul li {
+  margin-left: 45px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: 5s all ease;
+  -ms-transition: 5s all ease;
+  -o-transition: 5s all ease;
+}
+
+.head ul a:hover {
+  color: var(--color2);
+}
+
+/* s home */
+#home {
+  background-color: var(--color4);
+  background: url("imge/shoes/home\ \(2\).png");
+  background-size: 28%;
+  background-repeat: no-repeat;
+}
+
+#home .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 40px;
+}
+
+#home img {
+  width: 625px;
+  margin-top: 150px;
+}
+
+#home .content-text {
+  line-height: 41px;
+  margin-top: 135px;
+}
+
+#home .content-text h1 {
+  color: rebeccapurple;
+}
+
+/* e home *
+
+/
+/* s shope */
+#shope {
+  margin-top: 170px;
+}
+
+#shope .heade {
+  display: grid;
+  justify-content: center;
+  color: #663399;
+  display: flex;
+  align-items: center;
+}
+#shope .heade img {
+  width: 112px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  height: 150px;
+}
+
+#shope .heade h3 {
+  font-size: 42px;
+}
+
+#shope .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#shope .row .col {
+}
+
+#shope .row .col .one {
+  width: 70%;
+  margin-top: 18px;
+  margin-left: 15px;
+}
+
+#shope .row .col a {
+  display: grid;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+#shope .row .col a h3 {
+  width: 100%;
+  padding: 14px;
+  background-color: #f3f4ef;
+  padding-left: 71px;
+  padding-right: 55px;
+  transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+}
+
+#shope .row .col img {
+  width: 270px;
+  transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  margin-right: 50px;
+}
+
+#shope .row .col h3:hover {
+  background-color: #a3dbf9;
+}
+#shope .row .col img:hover {
+  padding: 80px;
+}
+.football {
+  margin-top: 66px;
+}
+.classic {
+  margin-top: 21%;
+  border-radius: 50%;
+}
+
+/* e shope */
+
+/* foot */
+#foot {
+  padding: 20px 0;
+
+  width: 100%;
+  margin-top: 200px;
+
+  background: url("imge/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#foot .content {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 106px;
+}
+
+#foot .col {
+  margin-left: 70px;
+}
+#foot .col ul {
+  list-style: none;
+}
+#foot .col ul li {
+  margin-bottom: 20px;
+  color: var(--color1);
+}
+#foot .col p {
+  margin-bottom: 20px;
+  color: var(--color1);
+}
+#foot .col h2 {
+  margin-bottom: 20px;
+  color: var(--color1);
+}
+#foot .col ul li a {
+  text-decoration: none;
+  color: #a3dbf9;
+  transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+}
+#foot .col ul li a:hover {
+  color: var(--color2);
+}
+.fot {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color2);
+}
+.fot p {
+  color: white;
+}
+.fot p span {
+}
+.fot p span a {
+  text-decoration: none;
+  color: aqua;
+  transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+}
+.fot p span a:hover {
+  color: var(--color3);
+}
+/* efoot */
